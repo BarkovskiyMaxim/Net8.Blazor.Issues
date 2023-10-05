@@ -1,0 +1,11 @@
+﻿@page "/component"
+
+<my-web-component id="component" class="loading">
+    ...some dynamic content here
+</my-web-component>
+
+<input type="button" onclick="alert(document.getElementById('component').loading)" value="GetState" />
+
+@code {
+
+}
