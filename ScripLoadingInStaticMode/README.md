@@ -1,3 +1,7 @@
+### Issue
+
+https://github.com/dotnet/aspnetcore/issues/51126
+
 ### Describe the bug
 
 In non-interactive mode, if you open a page that contains a <script>, it will load. However, if you navigate to that page from another one using navigation, the script will not be loaded on the page.

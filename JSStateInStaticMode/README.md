@@ -1,3 +1,7 @@
+### Issue
+
+https://github.com/dotnet/aspnetcore/issues/51128
+
 ### Describe the bug
 
 I have a WebComponent that manages its state on the client side and changes the value that was initially initialized from the server using Blazor. As a result, everything works fine until we change the routing. For example, if we navigate to Page1 using the NavBar and then click on Page1 again, the page will reset to the state initialized by the server.
